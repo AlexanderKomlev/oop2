@@ -1,4 +1,4 @@
-import Bowman from '../bowman.js';
+import Bowman from '../bowman';
 
 test('class Bowman default test', () => {
   expect(new Bowman('Bowman', 'Bowman')).toEqual({

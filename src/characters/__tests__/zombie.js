@@ -1,4 +1,4 @@
-import Zombie from '../zombie.js';
+import Zombie from '../zombie';
 
 test('class Zombie default test', () => {
   expect(new Zombie('Zombie', 'Zombie')).toEqual({

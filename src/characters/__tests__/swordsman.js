@@ -1,4 +1,4 @@
-import Swordsman from '../swordsman.js';
+import Swordsman from '../swordsman';
 
 test('class Swordsman default test', () => {
   expect(new Swordsman('Swordsman', 'Swordsman')).toEqual({

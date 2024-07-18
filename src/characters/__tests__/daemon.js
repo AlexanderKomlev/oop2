@@ -1,4 +1,4 @@
-import Daemon from '../daemon.js';
+import Daemon from '../daemon';
 
 test('class Daemon default test', () => {
   expect(new Daemon('Daemon', 'Daemon')).toEqual({

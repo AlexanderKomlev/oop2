@@ -1,4 +1,4 @@
-import Undead from '../undead.js';
+import Undead from '../undead';
 
 test('class Undead default test', () => {
   expect(new Undead('Undead', 'Undead')).toEqual({

@@ -1,4 +1,4 @@
-import Magician from '../magician.js';
+import Magician from '../magician';
 
 test('class Magician default test', () => {
   expect(new Magician('Magician', 'Magician')).toEqual({
