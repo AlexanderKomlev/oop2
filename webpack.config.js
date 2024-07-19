@@ -13,6 +13,12 @@ const config = {
     module: {
         rules: [
             {
+                test: /\.m?js/,
+                resolve: {
+                    fullySpecified: false
+                }
+            },
+            {
                 test: /\.(js|jsx)$/i,
                 loader: 'babel-loader',
                 exclude: '/node_modules/',
